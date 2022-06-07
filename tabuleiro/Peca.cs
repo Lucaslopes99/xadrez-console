@@ -16,7 +16,7 @@ namespace tabuleiro
         {
             Posicao = null;
             Tab = tab;
-            CorPeca = CorPeca;
+            CorPeca = corPeca;
             QtdMovimentos = 0;
         }
     }
