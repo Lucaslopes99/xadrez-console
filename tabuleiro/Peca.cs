@@ -19,5 +19,10 @@ namespace tabuleiro
             CorPeca = corPeca;
             QtdMovimentos = 0;
         }
+
+        public void IncromentarQtdMovimentos()
+        {
+            QtdMovimentos++;
+        }
     }
 }
