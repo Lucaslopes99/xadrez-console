@@ -24,7 +24,7 @@ namespace xadrez_console
                         Console.WriteLine();
                         Console.Write("Origem: ");
                         Posicao origem = Tela.LerPosicaoXadrez().ToPosicao();
-                        partida.ValidarPosicaoOrigem(origem);
+                        partida.ValidarPosicaoDeOrigem(origem);
 
                         bool[,] PossicoesPossiveis = partida.Tab.Peca(origem).MovimentosPossiveis();
                         Console.Clear();
@@ -42,7 +42,7 @@ namespace xadrez_console
                         Console.WriteLine(e.Message);
                         Console.ReadLine();
                     }
-                
+
                 }
                 Console.Clear();
                 Tela.ImprimirPartida(partida);
